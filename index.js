@@ -4,7 +4,7 @@ const { createProxyMiddleware } = require('http-proxy-middleware');
 
 // proxy middleware options
 const options = {
-  target: 'https://arkrec.com',
+  target: 'http://arkrec.com',
   secure: false,
   headers: { "Connection": "keep-alive" },
 };
